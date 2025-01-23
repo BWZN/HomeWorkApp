@@ -77,7 +77,7 @@ public class AppData {
                 {4, 5, 6}
         });
 
-        String fileName = "test.csv";
+        String fileName = "test2.csv";
         appData.save(fileName);
 
         AppData loadedData = new AppData();
@@ -92,7 +92,7 @@ public class AppData {
             for (int value : row) {
                 System.out.print(value + " ");
             }
-            System.out.println();
+            System.out.println(); //Я загрузил не на тот бранч или отменил пуш :(
         }
     }
 }
